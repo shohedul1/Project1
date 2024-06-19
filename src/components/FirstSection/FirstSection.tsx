@@ -59,12 +59,12 @@ const FirstSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className='mr-[68px] mt-[174px] relative  '>
+                <div className='mr-[68px] mt-[174px] relative w-[745px] h-[521px] '>
 
                     <Image
                         alt="background image"
                         src={ProductImage}
-                        className=" w-full h-full"
+                        className="w-full h-full object-cover"
                     />
 
 
