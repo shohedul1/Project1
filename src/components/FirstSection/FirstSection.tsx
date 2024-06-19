@@ -7,7 +7,7 @@ import Button from '../Button/Button';
 
 const FirstSection = () => {
     return (
-        <div className='w-full max-w-[1780px] h-full min-h-[800px] rounded-md bg-customColor relative md:overflow-hidden'>
+        <div className=' max-w-[1780px]  min-h-[800px] rounded-md bg-customColor relative md:overflow-hidden'>
             {/* Background Image */}
             <div className="absolute inset-0">
                 <Image
@@ -72,7 +72,7 @@ const FirstSection = () => {
 
             </div>
         </div>
-        
+
 
     );
 }
