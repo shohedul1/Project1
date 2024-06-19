@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar/Navbar";
 
 export default function Home() {
   return (
-    <div className="px-[70px] pb-20">
+    <div className=" pb-20">
       <Navbar />
       <FirstSection />
 

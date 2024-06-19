@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={hanken_Grotesk.className}>{children}</body>
+      <body className={`max-w-[1920px] max-h-[8640px] ${hanken_Grotesk.className}`}>{children}</body>
     </html>
   );
 }

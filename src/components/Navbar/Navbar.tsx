@@ -4,7 +4,7 @@ import home from "../../../public/image/home.png"
 
 const Navbar = () => {
     return (
-        <div className='py-4 flex justify-between items-center sticky top-0 bg-white z-40'>
+        <div className='py-4 flex justify-between items-center sticky top-0 bg-white z-40 px-[70px]'>
             <div>
                 <Link href={"/"}>
                     <Image
