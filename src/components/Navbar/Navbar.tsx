@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import home from "../../../public/image/home.png"
+import { CiSearch } from "react-icons/ci";
+
 
 const Navbar = () => {
     return (
@@ -38,10 +40,9 @@ const Navbar = () => {
                     </Link>
                 </li>
 
-
             </div>
-            <div>
-                search
+            <div className='w-[30px] h-[30px] text-green-600 flex items-center'>
+                <CiSearch  className='w-full h-full'/>
             </div>
 
         </div>
