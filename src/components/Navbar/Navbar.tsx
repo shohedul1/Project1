@@ -4,7 +4,7 @@ import home from "../../../public/image/home.png"
 
 const Navbar = () => {
     return (
-        <div className='py-4 flex justify-between items-center sticky top-0 bg-white z-40 px-[70px]'>
+        <div className='py-4 flex justify-between items-center sticky top-0 bg-white z-40 '>
             <div>
                 <Link href={"/"}>
                     <Image
@@ -16,7 +16,7 @@ const Navbar = () => {
                     />
                 </Link>
             </div>
-            <div className='flex gap-20'>
+            <div className=' gap-20 hidden md:flex'>
                 <li className='list-none font-normal text-[22px]'>
                     <Link href={"/"}>
                         Products
