@@ -7,7 +7,7 @@ import ProductImage from "../../../public/image/Prouct.png"
 
 const FirstSection = () => {
     return (
-        <div className='relative  w-full h-[800px] bg-customColor rounded-md overflow-hidden'>
+        <div className='relative w-full h-[800px] bg-customColor rounded-md overflow-hidden'>
             <Image
                 alt='image'
                 src={backGround}
@@ -21,8 +21,8 @@ const FirstSection = () => {
                         We’re known for dependability, service, and the best sphagnum moss, orchid bark, and tree fern fiber on the market!
                     </p>
                 </div>
-                <div className='flex flex-col md:flex-row gap-[87px] '>
-                    <div className='flex-1 mt-[140px] ml-[150px] '>
+                <div className='flex flex-col justify-center md:flex-row gap-[87px] '>
+                    <div className='mt-[140px] ml-[150px] '>
                         <div className='flex flex-col gap-[60px] w-[730px] h-[443px] '>
                             <p className='text-white text-[40px] leading-[52px] font-light	'>
                                 Acadian Supply is the EXCLUSIVE U.S. wholesale distributor of {""}
@@ -50,11 +50,11 @@ const FirstSection = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='flex-1 mr-[68px] mt-[99px]'>
+                    <div className='mr-[68px] mt-[99px] '>
                         <Image
                             alt='image'
                             src={ProductImage}
-                            className='w-[745px] h-[571px] mr-[68px]'
+                            className=' w-[745px] h-[571px]'
                         />
 
                     </div>

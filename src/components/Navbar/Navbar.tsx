@@ -41,8 +41,10 @@ const Navbar = () => {
                 </li>
 
             </div>
-            <div className='w-[30px] h-[30px] text-green-600 flex items-center'>
-                <CiSearch  className='w-full h-full'/>
+            <div>
+                <Link href={"#"} className='w-[30px] h-[30px] text-green-600 flex items-center'>
+                    <CiSearch className='w-full h-full' />
+                </Link>
             </div>
 
         </div>
